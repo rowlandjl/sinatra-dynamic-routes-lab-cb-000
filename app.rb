@@ -32,6 +32,8 @@ class App < Sinatra::Base
     case @operation
     when "add"
       "#{@num1 + @num2}"
+    when "subtract"
+      "#{@num2 - @num1}"
     end 
     
     # if @operation == "add"
