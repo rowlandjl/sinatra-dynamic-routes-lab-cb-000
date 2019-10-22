@@ -28,6 +28,8 @@ class App < Sinatra::Base
     @operation = params[:operation]
     @num1 = params[:number1]
     @num2 = params[:num2]
+    
+    
   end 
 
 end
