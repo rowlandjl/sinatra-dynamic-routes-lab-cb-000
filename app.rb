@@ -29,10 +29,16 @@ class App < Sinatra::Base
     @num1 = params[:number1].to_i 
     @num2 = params[:number2].to_i 
     
+    case @operation
+    when "add"
+      "#{@num1 + @num2}"
+    end 
+    
     if @operation == "add"
       "#{@num1 + @num2}"
     elsif @operation == "subtract"
       "#{@num2 - @num1}"
+    elsif @operation 
     end 
   end 
 
