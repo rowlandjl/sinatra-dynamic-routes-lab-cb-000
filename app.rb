@@ -34,12 +34,12 @@ class App < Sinatra::Base
       "#{@num1 + @num2}"
     end 
     
-    if @operation == "add"
-      "#{@num1 + @num2}"
-    elsif @operation == "subtract"
-      "#{@num2 - @num1}"
-    elsif @operation 
-    end 
+    # if @operation == "add"
+    #   "#{@num1 + @num2}"
+    # elsif @operation == "subtract"
+    #   "#{@num2 - @num1}"
+    # elsif @operation 
+    # end 
   end 
 
 end
